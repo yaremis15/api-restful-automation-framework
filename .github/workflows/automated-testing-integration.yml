@@ -3,7 +3,7 @@ name: automated-testing-integration
 on:
   push:
     branches:
-      - develop
+      - main
 
   schedule:
     - cron: "00 13 * * TUE"
