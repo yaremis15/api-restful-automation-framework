@@ -1,4 +1,4 @@
-package org.api.testing.reto.steps.common;
+package org.api.testing.reto.steps.update;
 
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Entonces;
@@ -11,7 +11,7 @@ import static org.api.testing.reto.questions.common.ExpectedJsonSchemaQuestion.t
 import static org.api.testing.reto.questions.common.GetValueFromResponseBodyQuestion.theAttributeValue;
 import static org.api.testing.reto.questions.common.ResponseTimeQuestion.responseTimeIs;
 import static org.api.testing.reto.questions.common.StatusCodeQuestion.httpResponseStatusCodeIs;
-import static org.api.testing.reto.tasks.CreateTokenTask.createTokenInTheSystem;
+import static org.api.testing.reto.tasks.common.CreateTokenTask.createTokenInTheSystem;
 import static org.api.testing.reto.utils.constants.Constants.AUTH_SHEMA;
 import static org.api.testing.reto.utils.enums.HttpStatusCodes.OK;
 import static org.api.testing.reto.utils.exceptions.AssertionsServices.*;
