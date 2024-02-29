@@ -1,4 +1,4 @@
-package org.api.testing.reto.tasks;
+package org.api.testing.reto.tasks.common;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
