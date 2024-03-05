@@ -1,6 +1,7 @@
 # language: es
 
 @createToken
+@integrationTest
 Necesidad del negocio: Generar token de autenticación
   Como cliente
   Quiero autenticarme en el sistema
